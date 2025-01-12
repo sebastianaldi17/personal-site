@@ -29,12 +29,12 @@ export const Data: {
     heroProjects: [
         {
             icon: faBlog,
-            link: "https://basblog.netlify.app/",
+            link: "https://blog.sebastianaldi.com/",
             buttonText: "My blog"
         },
         {
             icon: faMusic,
-            link: "https://maichartlist.netlify.app/",
+            link: "https://maichart.sebastianaldi.com/",
             buttonText: "MaiChartList"
         }
     ],
@@ -44,8 +44,9 @@ export const Data: {
     ],
     about: [
         "I started my programming journey on the year 2017. The last 2 digits of that year is the reason for my GitHub username.",
-        "When I was a kid, I liked to play video games. I thought to myself, since I enjoy video games, I should enjoy creating games! I was naïve, but at least I do enjoy programming.",
-        "I became a backend developer because I hated making user interfaces, but that won't stop me from learning frontend development. As a matter of fact, this site is made using React and Tailwind."
+        "When I was a kid, I liked to play video games. I thought to myself, since I enjoy video games, I should enjoy creating games! I was naïve, but I'm still grateful that I ended up becoming a programmer.",
+        "I became a backend developer because I hated making user interfaces, but that won't stop me from learning frontend development. As a matter of fact, this site is made using React and Tailwind.",
+        "I do still wish to make my own game someday, I've learned C# and Unity but finding an idea and any required assets would prove to be the hardest challenge.",
     ],
     socials: [
         {
@@ -84,6 +85,125 @@ export const Data: {
     skills: {
         sections: [
             {
+                sectionName: "Programming languages",
+                skills: [
+                    {
+                        skillName: "Golang",
+                        isProfessional: true,
+                    },
+                    {
+                        skillName: "Typescript",
+                        isProfessional: true,
+                    },
+                    {
+                        skillName: "Python",
+                        isProfessional: false,
+                    },
+                    {
+                        skillName: "Java",
+                        isProfessional: false,
+                    },
+                ]
+            },
+            {
+                sectionName: "Backend frameworks",
+                skills: [
+                    {
+                        skillName: "NestJS",
+                        isProfessional: true,
+                    },
+                    {
+                        skillName: "Spring",
+                        isProfessional: false,
+                    },
+                ]
+            },
+            {
+                sectionName: "Databases",
+                skills: [
+                    {
+                        skillName: "PostgreSQL",
+                        isProfessional: true,
+                    },
+                    {
+                        skillName: "MySQL",
+                        isProfessional: true,
+                    },
+                    {
+                        skillName: "Redis",
+                        isProfessional: true,
+                    },
+                    {
+                        skillName: "Cassandra",
+                        isProfessional: false,
+                    },
+                    {
+                        skillName: "Firestore",
+                        isProfessional: false,
+                    },
+                ]
+            },
+            {
+                sectionName: "Message queues",
+                skills: [
+                    {
+                        skillName: "NSQ",
+                        isProfessional: true,
+                    },
+                    {
+                        skillName: "RabbitMQ",
+                        isProfessional: true,
+                    },
+                ]
+            },
+            {
+                sectionName: "Cloud",
+                skills: [
+                    {
+                        skillName: "AWS",
+                        isProfessional: true,
+                    },
+                    {
+                        skillName: "GCP",
+                        isProfessional: true,
+                    },
+                ]
+            },
+            {
+                sectionName: "Monitoring",
+                skills: [
+                    {
+                        skillName: "NewRelic",
+                        isProfessional: true,
+                    },
+                    {
+                        skillName: "Datadog",
+                        isProfessional: true,
+                    },
+                ]
+            },
+            {
+                sectionName: "Frontend",
+                skills: [
+                    {
+                        skillName: "Vue",
+                        isProfessional: false,
+                    },
+                    {
+                        skillName: "React",
+                        isProfessional: false,
+                    },
+                    {
+                        skillName: "Tailwind",
+                        isProfessional: false,
+                    },
+                    {
+                        skillName: "Material UI",
+                        isProfessional: false,
+                    },
+                ]
+            },
+            {
                 sectionName: "Languages",
                 skills: [
                     {
@@ -103,13 +223,50 @@ export const Data: {
         ]
     },
     quotes: [
+        // life
+        {
+            author: "Marthe Troly-Curtin",
+            quote: "Time you enjoy wasting is not wasted time.",
+        },
+        {
+            author: "Steve Jobs",
+            quote: "The most important thing is to enjoy your life—to be happy—it's all that matters.",
+        },
+        // programming
+        {
+            author: "Felienne Hermans",
+            quote: "Confusion is part of programming."
+        },
+        {
+            author: "Arthur C. Clarke",
+            quote: "Any sufficiently advanced technology is indistinguishable from magic."
+        },
+        // friendship
+        {
+            author: "Edna Buchanan",
+            quote: "Friends are the family we choose for ourselves."
+        },
+        {
+            author: "Misty Copeland",
+            quote: "Anything is possible when you have the right people there to support you."
+        },
+        // learning
+        {
+            author: "Benjamin Franklin",
+            quote: "Tell me and I forget, teach me and I may remember, involve me and I learn."
+        },
+        {
+            author: "Anthony J. D'Angelo",
+            quote: "Develop a passion for learning. If you do, you will never cease to grow."
+        },
+        // fiction
         {
             author: "Lamb",
             quote: "Tomorrow is a hope, never a promise.",
         },
         {
-            author: "",
-            quote: "Memento mori, memento vivere."
+            author: "Saitama",
+            quote: "I'll leave tomorrow's problems to tomorrow's me.",
         },
     ]
 }

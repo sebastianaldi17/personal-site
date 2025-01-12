@@ -6,11 +6,11 @@ import Timeline from "./sections/Timeline"
 function App() {
   return (
     <>
-      <body>
+      <div>
         <HeroSection/>
         <About/>
         <Timeline/>
-      </body>
+      </div>
     </>
   )
 }
