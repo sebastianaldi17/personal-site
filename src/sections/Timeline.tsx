@@ -2,7 +2,7 @@ import { Data } from "../data";
 
 export default function Timeline() {
     return (
-        <div className="py-10 px-5">
+        <div className="py-10 px-5 md:px-20">
             <h1 className="text-4xl font-bold text-center mb-10">
                 My Journey
             </h1>

@@ -5,7 +5,7 @@ export default function About() {
     const randomQuote = Data.quotes[Math.floor(Math.random() * Data.quotes.length)]
 
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:px-20">
             {/* Left column */}
             <div className="p-6">
                 <h1 className="text-2xl font-bold mb-4">About Me:</h1>
@@ -49,7 +49,7 @@ export default function About() {
                         return (
                             <div key={`S-${index}`}>
                                 <p className="mb-2" key={`SN-${index}`}>{section.sectionName}</p>
-                                <div className="flex gap-4 flex-wrap" key={`SL-${index}`}>
+                                <div className="flex gap-4 flex-wrap my-1" key={`SL-${index}`}>
                                     {
                                         section.skills.map((skill, skillIndex) => {
                                             return (
