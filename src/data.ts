@@ -34,8 +34,8 @@ export const Data: {
         },
         {
             icon: faMusic,
-            link: "https://maichart.sebastianaldi.com/",
-            buttonText: "MaiChartList"
+            link: "https://maisocial.sebastianaldi.com/",
+            buttonText: "MaiSocial"
         }
     ],
     workExperience: [
