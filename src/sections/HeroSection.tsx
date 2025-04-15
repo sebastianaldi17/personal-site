@@ -10,15 +10,7 @@ export default function HeroSection() {
         let totalMilliseconds = 0;
 
         data.forEach(([startDate, endDate]) => {
-            totalMilliseconds +=
-                new Date(
-                    endDate.getFullYear(),
-                    endDate.getMonth() + 1
-                ).getTime() -
-                new Date(
-                    startDate.getFullYear(),
-                    startDate.getMonth()
-                ).getTime();
+            totalMilliseconds += endDate.getTime() - startDate.getTime();
         });
 
         return (totalMilliseconds / millisecondsPerYear).toFixed(1);
