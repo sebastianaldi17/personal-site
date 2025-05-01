@@ -44,8 +44,9 @@ export const Data: {
     ],
     about: [
         "When I was a kid, I liked to play video games. I thought to myself, since I enjoy video games, I should enjoy creating games! I was naïve, but I'm still grateful that I ended up becoming a programmer.",
-        "I became a backend developer because I hated making user interfaces, but that won't stop me from learning frontend development. As a matter of fact, this site is made using React and Tailwind.",
         "I do still wish to make my own game someday, I've learned C# and Unity but finding an idea and any required assets would prove to be the hardest challenge.",
+        "I am open to learn anything that is required for my daily work, may it be frontend development, DevOps, cloud engineering, or anything else.",
+        "I have a strong sense of responsibility and ownership over my work, and I am always looking for ways to improve my skills and knowledge.",
     ],
     socials: [
         {
@@ -64,12 +65,12 @@ export const Data: {
     timeline: [
         {
             header: "October 2024 - Present",
-            boldText: "Software Engineer - Backend @ Cosmart",
-            normalText: "Designed, developed and maintained microservices for order creation & lifecycle.",
-            chips: ["TypeScript", "NestJS", "Golang", "PostgreSQL", "RabbitMQ", "AWS", "Docker"]
+            boldText: "Software Engineer - Fullstack @ Cosmart",
+            normalText: "Designed, developed and maintained various interfaces and microservices for order creation & lifecycle.",
+            chips: ["TypeScript", "NestJS", "Golang", "PostgreSQL", "RabbitMQ", "AWS", "GCP", "Terraform", "Docker", "React.js", "Tailwind", "Next.js"]
         },
         {
-            header: "April 2021 - August 2024",
+            header: "March 2021 - August 2024",
             boldText: "Software Engineer - Backend @ Tokopedia",
             normalText: "Developed and managed microservices related to live stream creation and management.",
             chips: ["Golang", "GRPC", "PostgreSQL", "NSQ", "GCP", "Docker", "New Relic"]
@@ -166,6 +167,10 @@ export const Data: {
                         skillName: "GCP",
                         isProfessional: true,
                     },
+                    {
+                        skillName: "Terraform",
+                        isProfessional: true,
+                    },
                 ]
             },
             {
@@ -185,19 +190,27 @@ export const Data: {
                 sectionName: "Frontend",
                 skills: [
                     {
+                        skillName: "React",
+                        isProfessional: true,
+                    },
+                    {
+                        skillName: "Next.js",
+                        isProfessional: true,
+                    },
+                    {
+                        skillName: "Tailwind",
+                        isProfessional: true,
+                    },
+                    {
+                        skillName: "Material UI",
+                        isProfessional: false,
+                    },
+                    {
                         skillName: "Vue",
                         isProfessional: false,
                     },
                     {
-                        skillName: "React",
-                        isProfessional: false,
-                    },
-                    {
-                        skillName: "Tailwind",
-                        isProfessional: false,
-                    },
-                    {
-                        skillName: "Material UI",
+                        skillName: "Expo",
                         isProfessional: false,
                     },
                 ]

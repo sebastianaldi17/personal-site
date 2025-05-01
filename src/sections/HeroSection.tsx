@@ -30,7 +30,7 @@ export default function HeroSection() {
                     speed={1}
                 />
                 <p className="text-sm md:text-2xl my-8">
-                    My name is <span className="font-bold">Sebastian Aldi</span>, and I am a backend developer with {calculateWorkExperience(Data.workExperience)} years of professional experience.
+                    My name is <span className="font-bold">Sebastian Aldi</span>, and I am a software engineer with {calculateWorkExperience(Data.workExperience)} years of professional experience.
                 </p>
                 <p className="text-sm md:text-2xl mb-8">
                     Check out my stuff below:
