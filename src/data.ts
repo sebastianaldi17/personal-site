@@ -31,11 +31,6 @@ export const Data: {
             icon: faBlog,
             link: "https://blog.sebastianaldi.com/",
             buttonText: "My blog"
-        },
-        {
-            icon: faMusic,
-            link: "https://maisocial.sebastianaldi.com/",
-            buttonText: "MaiSocial"
         }
     ],
     workExperience: [
