@@ -1,5 +1,5 @@
 import { faGithub, faInstagram, faLinkedin, IconDefinition } from "@fortawesome/free-brands-svg-icons";
-import { faBlog, faMusic } from "@fortawesome/free-solid-svg-icons";
+import { faBlog } from "@fortawesome/free-solid-svg-icons";
 
 export const Data: {
     heroProjects: { icon: IconDefinition, link: string, buttonText: string }[],
@@ -35,7 +35,7 @@ export const Data: {
     ],
     workExperience: [
         [new Date(2021, 2), new Date(2024, 7)],
-        [new Date(2024, 9), new Date()],
+        [new Date(2024, 9), new Date(2025, 7)],
     ],
     about: [
         "When I was a kid, I liked to play video games. I thought to myself, since I enjoy video games, I should enjoy creating games! I was naïve, but I'm still grateful that I ended up becoming a programmer.",
@@ -59,10 +59,10 @@ export const Data: {
     ],
     timeline: [
         {
-            header: "October 2024 - Present",
+            header: "October 2024 - August 2025",
             boldText: "Software Engineer - Fullstack @ Cosmart",
             normalText: "Designed, developed and maintained various interfaces and microservices for order creation & lifecycle.",
-            chips: ["TypeScript", "NestJS", "Golang", "PostgreSQL", "RabbitMQ", "AWS", "GCP", "Terraform", "Docker", "React.js", "Tailwind", "Next.js"]
+            chips: ["TypeScript", "NestJS", "Golang", "Java", "PostgreSQL", "RabbitMQ", "AWS", "GCP", "Terraform", "Docker", "React.js", "Tailwind", "Next.js"]
         },
         {
             header: "March 2021 - August 2024",
@@ -91,11 +91,11 @@ export const Data: {
                         isProfessional: true,
                     },
                     {
-                        skillName: "Python",
-                        isProfessional: false,
+                        skillName: "Java",
+                        isProfessional: true,
                     },
                     {
-                        skillName: "Java",
+                        skillName: "Python",
                         isProfessional: false,
                     },
                 ]
