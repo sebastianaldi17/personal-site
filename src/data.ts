@@ -36,6 +36,7 @@ export const Data: {
     workExperience: [
         [new Date(2021, 2), new Date(2024, 7)],
         [new Date(2024, 9), new Date(2025, 7)],
+        [new Date(2025, 7), new Date()],
     ],
     about: [
         "When I was a kid, I liked to play video games. I thought to myself, since I enjoy video games, I should enjoy creating games! I was naïve, but I'm still grateful that I ended up becoming a programmer.",
@@ -58,6 +59,12 @@ export const Data: {
         },
     ],
     timeline: [
+        {
+            header: "August 2025 - Present",
+            boldText: "Senior Software Engineer - Backend @ Mobee",
+            normalText: "Developed and maintained an over-the-counter service that handles onramps and offramps.",
+            chips: ["Golang", "Redis", "PostgreSQL", "Docker"]
+        },
         {
             header: "October 2024 - August 2025",
             boldText: "Software Engineer - Fullstack @ Cosmart",
