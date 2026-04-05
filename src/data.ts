@@ -1,5 +1,5 @@
 import { faGithub, faInstagram, faLinkedin, IconDefinition } from "@fortawesome/free-brands-svg-icons";
-import { faBlog } from "@fortawesome/free-solid-svg-icons";
+import { faBlog, faToriiGate } from "@fortawesome/free-solid-svg-icons";
 
 export const Data: {
     heroProjects: { icon: IconDefinition, link: string, buttonText: string }[],
@@ -31,6 +31,11 @@ export const Data: {
             icon: faBlog,
             link: "https://blog.sebastianaldi.com/",
             buttonText: "My blog"
+        },
+        {
+            icon: faToriiGate,
+            link: "https://goi.sebastianaldi.com/",
+            buttonText: "Goi"
         }
     ],
     workExperience: [
