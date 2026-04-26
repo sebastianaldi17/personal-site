@@ -1,5 +1,5 @@
 import { faGithub, faInstagram, faLinkedin, IconDefinition } from "@fortawesome/free-brands-svg-icons";
-import { faBlog, faToriiGate } from "@fortawesome/free-solid-svg-icons";
+import { faBlog, faFaceDizzy, faToriiGate } from "@fortawesome/free-solid-svg-icons";
 
 export const Data: {
     heroProjects: { icon: IconDefinition, link: string, buttonText: string }[],
@@ -36,6 +36,11 @@ export const Data: {
             icon: faToriiGate,
             link: "https://goi.sebastianaldi.com/",
             buttonText: "Goi"
+        },
+        {
+            icon: faFaceDizzy,
+            link: "https://jakuten.sebastianaldi.com/",
+            buttonText: "Jakuten",
         }
     ],
     workExperience: [
@@ -121,7 +126,7 @@ export const Data: {
                     },
                     {
                         skillName: "Spring",
-                        isProfessional: false,
+                        isProfessional: true,
                     },
                 ]
             },
@@ -133,21 +138,9 @@ export const Data: {
                         isProfessional: true,
                     },
                     {
-                        skillName: "MySQL",
-                        isProfessional: true,
-                    },
-                    {
                         skillName: "Redis",
                         isProfessional: true,
-                    },
-                    {
-                        skillName: "Cassandra",
-                        isProfessional: false,
-                    },
-                    {
-                        skillName: "Firestore",
-                        isProfessional: false,
-                    },
+                    }
                 ]
             },
             {
@@ -174,10 +167,6 @@ export const Data: {
                         skillName: "GCP",
                         isProfessional: true,
                     },
-                    {
-                        skillName: "Terraform",
-                        isProfessional: true,
-                    },
                 ]
             },
             {
@@ -186,39 +175,6 @@ export const Data: {
                     {
                         skillName: "NewRelic",
                         isProfessional: true,
-                    },
-                    {
-                        skillName: "Datadog",
-                        isProfessional: true,
-                    },
-                ]
-            },
-            {
-                sectionName: "Frontend",
-                skills: [
-                    {
-                        skillName: "React",
-                        isProfessional: true,
-                    },
-                    {
-                        skillName: "Next.js",
-                        isProfessional: true,
-                    },
-                    {
-                        skillName: "Tailwind",
-                        isProfessional: true,
-                    },
-                    {
-                        skillName: "Material UI",
-                        isProfessional: false,
-                    },
-                    {
-                        skillName: "Vue",
-                        isProfessional: false,
-                    },
-                    {
-                        skillName: "Expo",
-                        isProfessional: false,
                     },
                 ]
             },
@@ -234,7 +190,7 @@ export const Data: {
                         isProfessional: true,
                     },
                     {
-                        skillName: "Japanese",
+                        skillName: "Japanese (N3)",
                         isProfessional: false,
                     },
                 ]

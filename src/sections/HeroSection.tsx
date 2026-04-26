@@ -36,19 +36,15 @@ export default function HeroSection() {
                     Check out my stuff below:
                 </p>
             </div>
-            <div className="flex justify-center space-x-4">
-                {
-                    Data.heroProjects.map((item) => {
-                        return (
-                            <a href={item.link}>
-                                <button className="px-6 py-3 text-white bg-neutral-950 hover:bg-neutral-700 rounded-lg font-semibold text-center text-sm md:text-lg" key={item.link}>
-                                    <FontAwesomeIcon icon={item.icon} className="mr-2 md:mr-4" />
-                                    {item.buttonText}
-                                </button>
-                            </a>
-                        )
-                    })
-                }
+            <div className="flex flex-wrap justify-center space-x-0 md:space-x-4">
+                {Data.heroProjects.map((item) => (
+                    <a href={item.link} className="w-1/2 md:w-auto p-1" key={item.link}>
+                        <button className="w-full px-6 py-3 text-white bg-neutral-950 hover:bg-neutral-700 rounded-lg font-semibold text-center text-sm md:text-lg">
+                            <FontAwesomeIcon icon={item.icon} className="mr-2 md:mr-4" />
+                            {item.buttonText}
+                        </button>
+                    </a>
+                ))}
             </div>
             <VSpace />
             <p className="text-sm md:text-2xl mb-8 text-center">Scroll down to learn more about me!</p>
