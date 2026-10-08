@@ -36,10 +36,14 @@ export default function HeroSection() {
                     Check out my stuff below:
                 </p>
             </div>
-            <div className="flex flex-wrap justify-center space-x-0 md:space-x-4">
+            <div className="flex flex-wrap justify-center gap-2 md:gap-4">
                 {Data.heroProjects.map((item) => (
-                    <a href={item.link} className="w-1/2 md:w-auto p-1" key={item.link}>
-                        <button className="w-full px-6 py-3 text-white bg-neutral-950 hover:bg-neutral-700 rounded-lg font-semibold text-center text-sm md:text-lg">
+                    <a
+                        href={item.link}
+                        className="basis-[calc(50%-0.25rem)] grow-0 md:basis-auto"
+                        key={item.link}
+                    >
+                        <button className="w-full whitespace-nowrap px-6 py-3 text-white bg-neutral-950 hover:bg-neutral-700 rounded-lg font-semibold text-center text-sm md:text-lg">
                             <FontAwesomeIcon icon={item.icon} className="mr-2 md:mr-4" />
                             {item.buttonText}
                         </button>

@@ -89,100 +89,76 @@ export const Data: {
             {
                 sectionName: "Programming languages",
                 skills: [
-                    {
-                        skillName: "Golang",
-                        isProfessional: true,
-                    },
-                    {
-                        skillName: "Typescript",
-                        isProfessional: true,
-                    },
-                    {
-                        skillName: "Java",
-                        isProfessional: true,
-                    },
-                    {
-                        skillName: "Python",
-                        isProfessional: false,
-                    },
+                    { skillName: "Go", isProfessional: true },
+                    { skillName: "TypeScript", isProfessional: true },
+                    { skillName: "JavaScript", isProfessional: true },
+                    { skillName: "Java", isProfessional: true },
+                    { skillName: "Python", isProfessional: true },
                 ]
             },
             {
                 sectionName: "Backend frameworks",
                 skills: [
-                    {
-                        skillName: "NestJS",
-                        isProfessional: true,
-                    },
-                    {
-                        skillName: "Spring",
-                        isProfessional: true,
-                    },
+                    { skillName: "NestJS", isProfessional: true },
+                    { skillName: "Spring Boot", isProfessional: true },
+                ]
+            },
+            {
+                sectionName: "Protocols",
+                skills: [
+                    { skillName: "REST", isProfessional: true },
+                    { skillName: "gRPC", isProfessional: true },
                 ]
             },
             {
                 sectionName: "Databases",
                 skills: [
-                    {
-                        skillName: "PostgreSQL",
-                        isProfessional: true,
-                    },
-                    {
-                        skillName: "Redis",
-                        isProfessional: true,
-                    }
+                    { skillName: "PostgreSQL", isProfessional: true },
                 ]
             },
             {
-                sectionName: "Message queues",
+                sectionName: "Distributed cache",
                 skills: [
-                    {
-                        skillName: "NSQ",
-                        isProfessional: true,
-                    },
-                    {
-                        skillName: "RabbitMQ",
-                        isProfessional: true,
-                    },
+                    { skillName: "Redis", isProfessional: true },
                 ]
             },
             {
-                sectionName: "Cloud",
+                sectionName: "Infrastructure",
                 skills: [
-                    {
-                        skillName: "AWS",
-                        isProfessional: true,
-                    },
-                    {
-                        skillName: "GCP",
-                        isProfessional: true,
-                    },
+                    { skillName: "Docker", isProfessional: true },
+                    { skillName: "Terraform", isProfessional: true },
+                    { skillName: "AWS", isProfessional: true },
+                    { skillName: "GCP", isProfessional: true },
                 ]
             },
             {
-                sectionName: "Monitoring",
+                sectionName: "CI/CD",
                 skills: [
-                    {
-                        skillName: "NewRelic",
-                        isProfessional: true,
-                    },
+                    { skillName: "GitHub Actions", isProfessional: true },
+                    { skillName: "Jenkins", isProfessional: true },
                 ]
             },
             {
-                sectionName: "Languages",
+                sectionName: "Observability",
                 skills: [
-                    {
-                        skillName: "Indonesian",
-                        isProfessional: true,
-                    },
-                    {
-                        skillName: "English",
-                        isProfessional: true,
-                    },
-                    {
-                        skillName: "Japanese (N3)",
-                        isProfessional: false,
-                    },
+                    { skillName: "New Relic", isProfessional: true },
+                    { skillName: "Grafana", isProfessional: true },
+                    { skillName: "Datadog", isProfessional: true },
+                ]
+            },
+            {
+                sectionName: "Message brokers",
+                skills: [
+                    { skillName: "NSQ", isProfessional: true },
+                    { skillName: "RabbitMQ", isProfessional: true },
+                ]
+            },
+            {
+                sectionName: "Spoken languages",
+                skills: [
+                    { skillName: "Indonesian", isProfessional: true },
+                    { skillName: "English", isProfessional: true },
+                    { skillName: "Japanese (JLPT N3)", isProfessional: false },
                 ]
             },
         ]
