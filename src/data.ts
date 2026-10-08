@@ -1,5 +1,5 @@
 import { faGithub, faInstagram, faLinkedin, IconDefinition } from "@fortawesome/free-brands-svg-icons";
-import { faBlog, faFaceDizzy, faToriiGate } from "@fortawesome/free-solid-svg-icons";
+import { faBlog } from "@fortawesome/free-solid-svg-icons";
 
 export const Data: {
     heroProjects: { icon: IconDefinition, link: string, buttonText: string }[],
@@ -32,16 +32,6 @@ export const Data: {
             link: "https://blog.sebastianaldi.com/",
             buttonText: "My blog"
         },
-        {
-            icon: faToriiGate,
-            link: "https://goi.sebastianaldi.com/",
-            buttonText: "Goi"
-        },
-        {
-            icon: faFaceDizzy,
-            link: "https://jakuten.sebastianaldi.com/",
-            buttonText: "Jakuten",
-        }
     ],
     workExperience: [
         [new Date(2021, 2), new Date(2024, 7)],
@@ -71,7 +61,7 @@ export const Data: {
     timeline: [
         {
             header: "August 2025 - Present",
-            boldText: "Senior Software Engineer - Backend @ Mobee",
+            boldText: "Senior Software Engineer - Backend @ A crypto fintech company",
             normalText: "Developed and maintained an over-the-counter service that handles onramps and offramps.",
             chips: ["Golang", "Redis", "PostgreSQL", "Docker"]
         },
